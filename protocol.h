@@ -60,6 +60,7 @@ class CMessageHeader
 enum
 {
     NODE_NETWORK = (1 << 0),
+    NODE_REPLACE_BY_FEE = (1 << 26),
 };
 
 class CAddress : public CService
