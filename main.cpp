@@ -342,7 +342,8 @@ extern "C" void* ThreadStats(void*) {
 static const string mainnet_seeds[] = {"rbf-seed.btc.petertodd.org",
                                        "rbf-seed-static.btc.petertodd.org",
                                        ""};
-static const string testnet_seeds[] = {"testnet-seed.bitcoin.petertodd.org", "static-testnet-seed.bitcoin.petertodd.org", ""};
+static const string testnet_seeds[] = {"tbtc-rbf-seed.btc.petertodd.org",
+                                       "tbtc-rbf-seed-static.btc.petertodd.org", ""};
 static const string *seeds = mainnet_seeds;
 
 extern "C" void* ThreadSeeder(void*) {
